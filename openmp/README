@@ -1,0 +1,8 @@
+Para ejecutar esta versión de openmp es necesario utilizar el archivo Makefile
+con el siguiente comando: make openmp
+
+Para ejecutar el programa se debe ingresar los siguientes parametros en bash
+./openmp nombreimagencolor.jpg nombrenuevaimagengris.jpg numero_hilos
+
+- Pueden presentarse errores con el archivo pkg-config, para solucionarlo se debe exportar la variable de entorno con la ruta del archivo, en este caso para solucionarlo se ejecuta el comando
+  export PKG_CONFIG_PATH=/usr/lib/pkgconfig:$PKG_CONFIG_PATH
