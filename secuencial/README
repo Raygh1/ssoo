@@ -1,0 +1,5 @@
+Para ejecutar esta versión de threads es necesario utilizar el archivo Makefile
+con el siguiente comando: make threaded
+
+Para ejecutar el programa se debe ingresar los siguientes parametros en bash
+./threaded nombreimagencolor.jpg nombrenuevaimagengris.jpg numero_hilos
